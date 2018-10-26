@@ -1,0 +1,25 @@
+c++
+data struct/algos/competitive
+vscodevim
+git
+linux
+node var {something} = require("asd"), server
+
+mysql
+aws, ec2
+docker, kubernetes
+pandas
+django
+flask
+keras
+
+
+
+cassandraDB
+hadoop
+android
+ios
+opengl,webgl
+opencv, instanceSegmentation Sunita Nayak
+ruby on rail
+svn
