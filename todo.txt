@@ -1,3 +1,7 @@
+numpy stride_tricks as_strided
+python package versioning
+boost python
+
 c++
 data struct/algos/competitive
 vscodevim
