@@ -1,21 +1,20 @@
 numpy stride_tricks as_strided
 python package versioning
 boost python
+currying
+inversion of control
 
 c++
 data struct/algos/competitive
-vscodevim
 git
 linux
 node var {something} = require("asd"), server
 
 mysql
 aws, ec2
-docker, kubernetes
 pandas
 django
 flask
-keras
 
 
 
