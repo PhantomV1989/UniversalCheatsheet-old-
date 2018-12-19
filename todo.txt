@@ -1,3 +1,7 @@
+data struct/algos/competitive
+Kaggle documentation
+
+
 numpy stride_tricks as_strided
 python package versioning
 boost python
@@ -5,7 +9,7 @@ currying
 inversion of control
 
 c++
-data struct/algos/competitive
+
 git
 linux
 node var {something} = require("asd"), server
