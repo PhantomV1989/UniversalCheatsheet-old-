@@ -1,3 +1,5 @@
+k hop https://cs.stackexchange.com/questions/38375/what-is-an-edge-hop
+
 data struct/algos/competitive
 Kaggle documentation
 
