@@ -1,0 +1,1001 @@
+$ history
+   36  source ~/my-hadoop-install/hadoop-3.0.1/etc/hadoop/hadoop-env.sh
+   37  source ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/hadoop-env.sh
+   38  sudo mkdir -p /usr/local/hadoop/hdfs/data
+   39  sudo chown -R hadoop:hadoop /usr/local/hadoop/hdfs/data
+   40  ls -lai /usr/local/hadoop/hdfs/
+   41  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/core-site.xml
+   42  ssh-keygen
+   43  ls
+   44  cd .ssh
+   45  ls
+   46  cd hadoop-3.1.1/
+   47  ls
+   48  cd ...
+   49  cd ..
+   50  ls
+   51  cd .ssh
+   52  ls
+   53  cat id_rsa.pub 
+   54  ;s
+   55  ls
+   56  pwd
+   57  ls -laih
+   58  cd ..
+   59  ls -laih
+   60  clear
+   61  cd .ssh/
+   62  ls
+   63  cat id_rsa.pub
+   64  ls
+   65  nano ~/.ssh/authorized_keys
+   66  nano ~/.ssh/config
+   67  ssh hadoop@hadoopnode1
+   68  ssh hadoop@hadoopnode2
+   69  ssh hadoop@hadoopnode3
+   70  ssh hadoop@hadoopnode1
+   71  ssh hadoop@hadoopnode2
+   72  ssh hadoop@hadoopnode3
+   73  ssh hadoop@hadoopmaster
+   74  clear
+   75  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/hdfs-site.xml
+   76  nano ~/my-hadoop-install/hadoop-3.0.1/etc/hadoop/mapred-site.xml
+   77  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/mapred-site.xml
+   78  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/yarn-site.xml
+   79  nano ~/my-hadoop-install/hadoop-3.0.1/etc/hadoop/masters
+   80  nano ~/my-hadoop-install/hadoop-3.`.1/etc/hadoop/masters
+   81  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/masters
+   82  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/workers
+   83  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/masters
+   84  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/workers
+   85  pwd
+   86  ls
+   87  cd my-hadoop-install/
+   88  ls
+   89  cd hadoop-3.1.1/
+   90  ls
+   91  sudo ./bin/hdfs namenode -format
+   92  sudo ./sbin/start-dfs.sh
+   93  sudo ./sbin/start-yarn.sh 
+   94  jps
+   95  ss -a
+   96  cd sbin/
+   97  ls
+   98  ./stop-yarn.sh
+   99  ./stop-dfs.sh
+  100  jps
+  101  sudo ./sbin/start-dfs.sh
+  102  ls
+  103  sudo ./start-dfs.sh 
+  104  sudo ./start-yarn.sh 
+  105  sudo ./stop-all.sh 
+  106  sudo shutdown -h now
+  107  exit
+  108  cd my-hadoop-install/
+  109  ls
+  110  cd hadoop-3.1.1/sbin/
+  111  ls
+  112  sudo ./start-dfs.sh
+  113  sudo ./start-yarn.sh 
+  114  cd
+  115  ls
+  116  jps
+  117  ls
+  118  cd my-hadoop-install/
+  119  ls
+  120  cd hadoop-3.1.1/
+  121  ls
+  122  cd sbin/
+  123  ls
+  124  cd ..
+  125  cd bin/
+  126  ls
+  127  hdfs dfsadmin -report
+  128  ./hdfs dfsadmin -report
+  129  cd ..
+  130  cd sbin/
+  131  ./stop-all.sh 
+  132  sudo ./stop-all.sh 
+  133  sudo systemctl status iptables
+  134  sudo systemctl status ufw
+  135  sudo systemctl stop ufw
+  136  sudo systemctl status ufw
+  137  sudo ufw disable
+  138  sudo systemctl status ufw
+  139  sudo shutdown -r now
+  140  cd my-hadoop-install/
+  141  ls
+  142  cd hadoop-3.1.1/sbin/
+  143  ls
+  144  sudo ./start-dfs.sh
+  145  sudo ./start-yarn.sh
+  146  cd ..
+  147  ls
+  148  cd bin/
+  149  ls
+  150  ./hdfs 
+  151  ./hdfs -dfsadmin
+  152  ./hdfs -dfsadmin -report
+  153  ./hdfs dfsadmin -report
+  154  sudo systemctl status ufw
+  155  sudo systemctl stop ufw
+  156  sudo systemctl status ufw
+  157  clear
+  158  cd ..
+  159  cd sbin/
+  160  sudo ./stop-yarn.sh 
+  161  sudo ./stop-dfs.sh 
+  162  sudo ./start-dfs.sh 
+  163  sudo ./start-yarn.sh 
+  164  jps
+  165  cd ..
+  166  cd sbin/
+  167  ls
+  168  sudo ./hdfs 
+  169  cd ..
+  170  cd bin
+  171  ls
+  172  sudo ./hdfs 
+  173  sudo ./hdfs dfsadmin -report
+  174  sudo su
+  175  ls
+  176  ./hdfs dfsadmin -report
+  177  ls
+  178  cd /var/log
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd
+  183  ls
+  184  cd my-hadoop-install/
+  185  ls
+  186  cd hadoop-3.1.1/
+  187  ls
+  188  cd logs/
+  189  ls
+  190  tail -f hadoop-hadoop-namenode-hadoopmaster.log
+  191  tail -f hadoop-hadoop-datanode-hadoopmaster.log
+  192  ssh hadoop@hadoopnide1
+  193  ssh hadoop@hadoopnode1
+  194  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/workers
+  195  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/masters 
+  196  nano ~/my-hadoop-install/hadoop-3.0.1/etc/hadoop/yarn-site.xml
+  197  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/yarn-site.xml
+  198  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/mapred-site.xml
+  199  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/hdfs-site.xml
+  200  nano ~/.ssh/config
+  201  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/core-site.xml
+  202  sudo systemctl status iptables
+  203  sudo systemctl status ufw
+  204  sudo ufw disable
+  205  sudo shutdown -r now
+  206  sudo ufw status
+  207  cd my-hadoop-install/hadoop-3.1.1/sbin/
+  208  ks
+  209  ls
+  210  sudo ./start-dfs.sh
+  211  sudo ./start-yarn.sh
+  212  ./bin/hdfs dfsadmin -report
+  213  cd ..
+  214  cd bin/
+  215  hdfs dfsadmin -report
+  216  ls
+  217  ./hdfs dfsadmin -report
+  218  cd ..
+  219  cd logs/
+  220  ls
+  221  tail -f hadoop-hadoop-datanode-hadoopmaster.log
+  222  cd ..
+  223  ls
+  224  cd sbin/
+  225  ./stop-yarn.sh 
+  226  ./stop-dfs.sh 
+  227  nano ~/my-hadoop-install/hadoop-3.0.1/etc/hadoop/core-site.xml
+  228  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/core-site.xml
+  229  ls
+  230  sudo ./start-dfs.sh 
+  231  sudo ./start-yarn..sh 
+  232  sudo ./start-yarn.sh 
+  233  cd ..
+  234  ls
+  235  cd bin/
+  236  ls
+  237  sudo ./hdfs dfsadmin -report
+  238  hdfs dfsadmin -report
+  239  ./hdfs dfsadmin -report
+  240  ./hdfs dfsadmin 
+  241  sudo shutdown -r now
+  242  jps
+  243  cd my-hadoop-install/hadoop-3.1.1/sbin/
+  244  sudo ./start-dfs.sh 
+  245  sudo ./start-yarn.sh 
+  246  sudo ufw status
+  247  cd ..
+  248  ls
+  249  cd bin/
+  250  ls
+  251  hdfs dfsadmin -report
+  252  ./hdfs dfsadmin -report
+  253  ./hdfs dfs -mkdir -p /user/hadoop
+  254  ./hdfs dfs -cd /user/hadoop
+  255  ./hdfs dfs cd /user/hadoop
+  256  ./hdfs dfs -ls
+  257  ./hdfs dfs -ls /user/hadoop
+  258  ./hdfs dfs -mkdir books
+  259  ./hdfs dfs -ls /user/hadoop
+  260  cd /home/hadoop/
+  261  ls
+  262  wget -O alice.txt https://www.gutenberg.org/files/11/11-0.txt
+  263  wget -O holmes.txt https://www.gutenberg.org/ebooks/1661.txt.utf-8
+  264  wget -O frankenstein.txt https://www.gutenberg.org/ebooks/84.txt.utf-8
+  265  ls
+  266  hdfs
+  267  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -ls
+  268  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -put alice.txt holmes.txt frankenstein.txt 
+  269  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -put alice.txt holmes.txt frankenstein.txt books
+  270  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -ls
+  271  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -ls books
+  272  ./my-hadoop-install/hadoop-3.1.1/bin/hdfs dfs -cat books/alice.txt
+  273  ./my-hadoop-install/hadoop-3.1.1/bin/yarn jar ~/hadoop/share/hadoop/mapreduce/hadoop-m
+  274  ls
+  275  cd my-hadoop-install/hadoop-3.1.1/
+  276  ls
+  277  cd share/
+  278  ls
+  279  cd hadoop/mapreduce/
+  280  ls
+  281  pwd
+  282  ls
+  283  ./my-hadoop-install/hadoop-3.1.1/bin/yarn jar /home/hadoop/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output
+  284  ls
+  285  cd ..
+  286  sl
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd bin/
+  293  ls
+  294  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output
+  295  ./hdfs dfs -ls
+  296  ./hdfs dfs -ls books
+  297  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  298  cd ..
+  299  ls
+  300  cd etc/
+  301  ls
+  302  cd hadoop/
+  303  ls
+  304  ls -laih
+  305  nano mapred-site.xml 
+  306  cd
+  307  ls
+  308  cd my-hadoop-install/hadoop-3.1.1/
+  309  ls
+  310  pwd
+  311  nano mapred-site.xml 
+  312  cd ..
+  313  cd /etc/
+  314  ls
+  315  cd
+  316  ls
+  317  cd my-hadoop-install/hadoop-3.1.1/etc/
+  318  ks
+  319  ls
+  320  cd hadoop/
+  321  ls
+  322  nano mapred-site.xml
+  323  cd bi
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd ..
+  328  ls
+  329  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  330  cd ..
+  331  cd /etc/
+  332  ls
+  333  cd ~/my-hadoop-install/hadoop-3.1.1/etc/
+  334  ls
+  335  cd hadoop/
+  336  ls
+  337  nano mapred-site.xml
+  338  cd ..
+  339  cd bin
+  340  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  341  cd ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/
+  342  ls
+  343  nano mapred-site.xml
+  344  ls
+  345  cd ..
+  346  cd bin/
+  347  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  348  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/mapred-site.xml
+  349  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  350  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/mapred-site.xml
+  351  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  352  pwd
+  353  nano ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/mapred-site.xml
+  354  pwd
+  355  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  356  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output
+  357  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/alice.txt" output
+  358  ./hdfs dfs -ls /user/hadoop
+  359  ./hdfs dfs -ls /user/hadoop/output
+  360  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output1
+  361  ls
+  362  ./hdfs dfs -ls /user/hadoop/output1/*
+  363  ./hdfs dfs -cat /user/hadoop/output1/_SUCCESS
+  364  ./hdfs dfs -cat /user/hadoop/output1/part-r-00000
+  365  1;2c1;2c1;2c
+  366  exit
+  367  ls
+  368  cd my-hadoop-install/
+  369  ls
+  370  cd hadoop-3.1.1/
+  371  ls
+  372  cd bin/
+  373  ls
+  374  ./hdfs dfs -ls
+  375  ./hdfs dfs -help
+  376  ./hdfs dfs
+  377  ./hdfs dfs -ls
+  378  ./hdfs dfs -rmdir output
+  379  ./hdfs dfs -rmdir -R output
+  380  ./hdfs dfs -rm -R output
+  381  ./hdfs dfs -rm -R output1
+  382  ls
+  383  ./hdfs dfs -ls
+  384  ./yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output
+  385  ./yarn node -list
+  386  ./yarn application -list
+  387  clear
+  388  ./hdfs dfsadmin -report
+  389  jps
+  390  printenv
+  391  export PATH=$PATH:/home/hadoop/my-hadoop-install/hadoop-3.1.1/bin
+  392  export PATH=$PATH:/home/hadoop/my-hadoop-install/hadoop-3.1.1/sbin
+  393  printenv
+  394  cd
+  395  hdfs
+  396  hdfs dfs -ls
+  397  hdfs dfs -ls out
+  398  hdfs dfs -ls output
+  399  exit
+  400  sudo shutdown -r now
+  401  uptime
+  402  printenv
+  403  cd my-hadoop-install/hadoop-3.1.1/bin/
+  404  printenv
+  405  cat /etc/environment 
+  406  cat /etc/environment
+  407  sudo nano /etc/environment
+  408  sudo nano /etc/environment\
+  409  sudo nano /etc/environment
+  410  source /etc/environment
+  411  printenv
+  412  hdfs
+  413  sudo shutdown -r now
+  414  printenv
+  415  hdfs dfs -ls
+  416  jps
+  417  sudo shutdown -r now
+  418  jps
+  419  ls
+  420  cd my-hadoop-install/
+  421  ls
+  422  cd hadoop-3.1.1/
+  423  ls
+  424  cd bin/
+  425  cd ..
+  426  cd sbin/
+  427  ls
+  428  cd
+  429  ls
+  430  start-dfs.sh
+  431  start-yarn.sh 
+  432  hdfs dfsadmin -report
+  433  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output1
+  434  ls
+  435  hdfs dfs -ls
+  436  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output2
+  437  ls
+  438  hdfs dfs -ls
+  439  hdfs dfs -rm -R output
+  440  hdfs dfs -rm -R output1
+  441  hdfs dfs -rm -R output3
+  442  hdfs dfs -ls
+  443  hdfs dfs -rm -R output2
+  444  ping 192.168.11.22
+  445  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output
+  446  ping 192.168.11.22
+  447  hdfs dfs -ls
+  448  hdfs dfs -ls book
+  449  hdfs dfs -ls books
+  450  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output2
+  451  ping 192.168.11.22
+  452  hdfs dfs -ls books
+  453  hdfs dfs -ls
+  454  hdfs dfsadmin -report
+  455  exit
+  456  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output3
+  457  ls
+  458  hdfs dfsadmin -report
+  459  cd my-hadoop-install/
+  460  ls
+  461  cd hadoop-3.1.1/
+  462  ls
+  463  cd sbin/
+  464  ls
+  465  service rpcbind stop
+  466  pwd
+  467  sudo -u hadoop /my-hadoop-install/hadoop-3.1.1/sbinhadoop-daemon.sh --script /usr/local/hadoop/bin/hdfs start portmap
+  468  hadoop-daemon.sh --script /my-hadoop-install/hadoop-3.1.1/sbin/hdfs start nfs3
+  469  sudo -u hadoop /my-hadoop-install/hadoop-3.1.1/sbinhadoop-daemon.sh --script /usr/local/hadoop/bin/hdfs start portmap hadoop-daemon.sh --script /my-hadoop-install/hadoop-3.1.1/sbin/hdfs start nfs3
+  470  sudo -u hadoop /my-hadoop-install/hadoop-3.1.1/sbin/hadoop-daemon.sh --script /usr/local/hadoop/bin/hdfs start portmap hadoop-daemon.sh --script /my-hadoop-install/hadoop-3.1.1/sbin/hdfs start nfs3
+  471  hdfs dfsadmin -report
+  472  sudo shutdown -r now
+  473  sudo shutdown -r now
+  474  hdfs dfsadmin -report
+  475  start-dfs.sh
+  476  hdfs dfsadmin -report
+  477  jps
+  478  pwd
+  479  yarn jar my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar pi 16 1000
+  480  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output4
+  481  stop-dfs.sh 
+  482  start-dfs.sh 
+  483  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output5
+  484  stop-dfs.sh 
+  485  stop-yarn.sh 
+  486  stop-dfs.sh
+  487  start-dfs.sh
+  488  start-yarn.sh
+  489  hdfs dfsadmin -report
+  490  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output4
+  491  yarn jar my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar pi 16 1000
+  492  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output5
+  493  cd /etc/
+  494  ls
+  495  sudo -u hadoop pwd
+  496  cd
+  497  ls
+  498  pwd
+  499  my-hadoop-install/hadoop-3.1.1/sbin/hadoop-daemon.sh --script my-hadoop-install/hadoop-3.1.1/bin/hdfs start portmap
+  500  ~/my-hadoop-install/hadoop-3.1.1/sbin/hadoop-daemon.sh --script ~/my-hadoop-install/hadoop-3.1.1/bin/hdfs start portmap
+  501  sudo -u hadoop ~/my-hadoop-install/hadoop-3.1.1/sbin/hadoop-daemon.sh --script ~/my-hadoop-install/hadoop-3.1.1/bin/hdfs start portmap
+  502  cat ~/my-hadoop-install/hadoop-3.1.1/sbin/hadoop-daemon.sh
+  503  service nfs stop
+  504  service rpcbind stop
+  505  hadoop-daemon.sh start portmap
+  506  hadoop portmap
+  507  sudo hadoop portmap
+  508  ls
+  509  sudo hadoop portmap
+  510  hadoop-daemon.sh start portmap
+  511  hadoop-daemon.sh stop portmap
+  512  hdfs --portmap stop
+  513  hdfs --portmap start
+  514  hdfs portmap stop
+  515  hdfs portmap start
+  516  sudo hdfs portmap start
+  517  sudo su
+  518  rpcinfo 127.0.0.1
+  519  sudo hdfs portmap start
+  520  start-dfs.sh
+  521  start-yarn.sh
+  522  hdfs dfsadmin -report
+  523  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output6
+  524  rpcinfo -p 127.0.0.1
+  525  service nfs stop
+  526  service rpcbind stop
+  527  hadoop portmap
+  528  hadoop nfs3
+  529  rpcinfo -p 127.0.0.1
+  530  rpcinfo
+  531  sudo rpcinfo
+  532  sudo su
+  533  start-dfs.sh 
+  534  start-yarn.sh 
+  535  sudo su
+  536  jobs
+  537  exit
+  538  stop-yarn.sh
+  539  stop-dfs.sh
+  540  sudo shutdown -r now
+  541  start-dfs.sh 
+  542  start-yarn.sh
+  543  hdfs dfsadmin -report
+  544  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output7
+  545  hadoop portmap
+  546  sudo hadoop portmap
+  547  pwd
+  548  sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  549  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  550  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  551  screen -r
+  552  netstat -atp
+  553  screen -r
+  554  ss -a
+  555  ss -atp
+  556  rpcinfo
+  557  screen -r
+  558  screen -r 3384
+  559  screen -r
+  560  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  561  screen -r
+  562  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  563  screen -r
+  564  screen -r 3707
+  565  screen -r
+  566  sudo shutdown -h now
+  567  ssh hadoop@192.168.10.64
+  568  start-dfs.sh 
+  569  start-yarn.sh 
+  570  hdfs dfsadmin -report
+  571  yarn jar ~/my-hadoop-install/hadoop-3.1.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount "books/*" output8
+  572  yarn list
+  573  hdfs dfs -ls
+  574  hdfs dfs -rm -R output8
+  575  hdfs dfs -rm -R output7
+  576  hdfs dfs -rm -R output6
+  577  hdfs dfs -rm -R output5
+  578  hdfs dfs -rm -R output4
+  579  hdfs dfs -rm -R output3
+  580  hdfs dfs -rm -R output2
+  581  hdfs dfs -rm -R output
+  582  hdfs dfs -ls
+  583  hdfs dfs -df -h
+  584  hdfs dfs -free -g
+  585  hdfs dfs -free
+  586  ls
+  587  hdfs dfs -ls
+  588  hdfs dfs -ls books
+  589  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  590  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  591  screen -r
+  592  clear
+  593  exit
+  594  showmount -e 127.0.0.1
+  595  ls
+  596  cd my-hadoop-install/
+  597  ls
+  598  cd hadoop-3.1.1/
+  599  ls
+  600  cd etc/
+  601  ls
+  602  cd hadoop/
+  603  ls
+  604  cat core-site.xml 
+  605  nano core-site.xml 
+  606  stop-yarn.sh 
+  607  stop-dfs.sh 
+  608  shutdown -r now
+  609  sudo shutdown -r now
+  610  start-dfs.sh 
+  611  start-yarn.sh 
+  612  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  613  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  614  screen -r
+  615  screen -r 2537
+  616  screen -r
+  617  clear
+  618  start-dfs.sh
+  619  hdfs dfsadmin -report
+  620  clear
+  621  screen -r
+  622  screen -r 2642
+  623  screen -r
+  624  clear
+  625  ls
+  626  cd my-hadoop-install/hadoop-3.1.1/etc/
+  627  ks
+  628  ls
+  629  cd hadoop/
+  630  ls
+  631  nano core-site.xml
+  632  stop-yarn.sh 
+  633  stop-dfs.sh 
+  634  start-dfs.sh 
+  635  start-yarn.sh 
+  636  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  637  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  638  clea
+  639  clear
+  640  hdfs dfsadmin -report
+  641  ls
+  642  nano core-site.xml 
+  643  man -k group
+  644  nano core-site.xml 
+  645  nano core-site.xml
+  646  screen -r
+  647  5587
+  648  screen -r 5587
+  649  screen -r
+  650  stop-yarn.sh
+  651  stop-dfs.sh
+  652  start-dfs.sh
+  653  start-yarn.sh
+  654  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  655  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  656  screen -r
+  657  sudo ufw disable
+  658  screen -r
+  659  screen -r 8053
+  660  screen -r 
+  661  stop-yarn.sh
+  662  stop-dfs.sh
+  663  nano core-site.xml
+  664  nano hdfs-site.xml 
+  665  start-dfs.sh
+  666  start-yarn.sh
+  667  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portma
+  668  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  669  hdfs dfs -ls
+  670  exit
+  671  hdfs -dfs -ls
+  672  hdfs dfs -ls
+  673  hdfs dfs -ls -ltr
+  674  hdfs dfs -ls -r
+  675  screen -r
+  676  last
+  677  ss -a
+  678  ss -a | grep 8082
+  679  ss -a | grep 8031
+  680  ss -a | grep -e"192.168.10.63"
+  681  ss -a
+  682  ks
+  683  ls
+  684  cd my-hadoop-install/
+  685  cd /etc/
+  686  ls
+  687  cd ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/
+  688  ls
+  689  cat hdfs-site.xml 
+  690  cat  core-site.xml 
+  691  ls
+  692  hdfs dfa -ls
+  693  hdfs dfs -ls
+  694  ls -lZ
+  695  hdfs dfs ls -lZ
+  696  hdfs dfs ls -l
+  697  hdfs dfs ls
+  698  hdfs dfs -ls
+  699  hdfs dfs -ls -i
+  700  hdfs dfs -ls --e
+  701  hdfs dfs -ls -e
+  702  ls
+  703  cd my-hadoop-install/hadoop-3.1.1/etc/
+  704  ls
+  705  cd hadoop/
+  706  ls
+  707  cat hdfs-site.xml
+  708  cat core-site.xml 
+  709  ls
+  710  cat hdfs-site.xml
+  711  nano hdfs-site.xml
+  712  mount
+  713  screen -r
+  714  screen -r 10575.pts-0.hadoopmaster
+  715  screen -r
+  716  ls
+  717  history | grep screen
+  718  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  719  history | grep screen
+  720  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  721  screen -r
+  722  sudo mount -t  nfs  -o vers=3,proto=tcp,nolock 192.168.10.63:/user/hadoop/pv1 /mnt/hdfs/
+  723  ls
+  724  cat /etc/fstab 
+  725  cat /etc/passwd
+  726  id
+  727  scren -r
+  728  screen -r
+  729  scren -r 9266.pts-0.hadoopmaster
+  730  scren -r 9266
+  731  screen -r 9266.pts-0.hadoopmaster
+  732  screen -r
+  733  screen -r 9363.pts-0.hadoopmaster
+  734  screen -r
+  735  id
+  736  groups
+  737  group
+  738  docker
+  739  ls
+  740  hdfs dfs -ls
+  741  hdfs dfs 
+  742  hdfs dfs -chmod -R 777 pv1
+  743  hdfs dfs -ls
+  744  hdfs dfs -chmod -R 777 pv2
+  745  hdfs dfs -chmod -R 777 pv3
+  746  hdfs dfs -ls
+  747  hdfs dfs -pwd
+  748  hdfs dfs -ls
+  749  ls
+  750  hdfs dfs -ls
+  751  hdfs dfs
+  752  ls
+  753  hdfs dfs
+  754  hdfs dfs -ls
+  755  hdfs dfs -cd /user
+  756  hdfs dfs -cd user
+  757  hdfs dfs -cd pwd
+  758  ls
+  759  exit
+  760  ls
+  761  screen -r
+  762  screen -r 9363.pts-0.hadoopmaster
+  763  screen -r
+  764  screen -r 9363.pts-0.hadoopmaster
+  765  screen -r
+  766  scren -r 9363.pts-0.hadoopmaster
+  767  screen -r 9363.pts-0.hadoopmaster
+  768  screen -r
+  769  ls -lah
+  770  cd my-hadoop-install/
+  771  ls
+  772  cd e
+  773  cd /etc/
+  774  ls
+  775  cd ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/
+  776  ls
+  777  cat hdfs-site.xml 
+  778  nano hdfs-site.xml 
+  779  SCREEN -R
+  780  screen -r
+  781  screen -r 9363.pts-0.hadoopmaster
+  782  screen -r
+  783  history
+  784  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portma
+  785  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop 
+  786  history
+  787  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  788  screen -r
+  789  screen -r 15246.pts-0.hadoopmaster
+  790  screen
+  791  screen -r
+  792  screen -r 15364.pts-0.hadoopmaster
+  793  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  794  screen -r
+  795  screen -r 15364.pts-0.hadoopmaster
+  796  screen -r
+  797  screen -r 15490.pts-0.hadoopmaster
+  798  systemctl nfs status
+  799  systemctl status nfs
+  800  systemctl status rpcbind
+  801  rpcinfo
+  802  cat /etc/group | grep supergroup
+  803  ---------------------
+  804  cat /etc/group | grep supergroup
+  805  sudo /usr/sbin/groupadd supergroup
+  806  sudo cat /etc/group | grep supergroup
+  807  ---------------------
+  808  sudo cat /etc/group | grep supergroup
+  809  sudo cat /etc/group
+  810  exit
+  811  screen -r
+  812  screen -r 15490.pts-0.hadoopmaster
+  813  screen -r
+  814  screen -r 15364.pts-0.hadoopmaster
+  815  screen -r 15490.pts-0.hadoopmaster
+  816  screen -r
+  817  history
+  818  scren -r
+  819  screen
+  820  history
+  821  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  822  screen -r
+  823  screen ir
+  824  screen  
+  825  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  826  screen -r
+  827  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  828  sudo shutdown -r now
+  829  scren 
+  830  screen
+  831  screen -r
+  832  screen 
+  833  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  834  screen -r
+  835  screen -r
+  836  nano hdfs-site.xml
+  837  nano core-site.xml 
+  838  ls
+  839  history
+  840  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  841  ls
+  842  cd my-hadoop-install/
+  843  ls
+  844  cd hadoop-3.1.1/
+  845  ls
+  846  cd sbin
+  847  ls
+  848  ./start-dfs.sh
+  849  ./start-yarn.sh 
+  850  history
+  851  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  852  history
+  853  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  854  screen -r
+  855  exit
+  856  history
+  857  ls
+  858  cd my-hadoop-install/
+  859  ls
+  860  cd e
+  861  cd hadoop-3.1.1/
+  862  ls
+  863  cd etc/
+  864  ls
+  865  cd hadoop/
+  866  ls
+  867  cat hdfs-site.xml 
+  868  cat hdfs-site.xml 
+  869  ls
+  870  ls
+  871  cd
+  872  ls
+  873  cd my-hadoop-install/hadoop-3.1.1/etc/
+  874  cat hadoop/hdfs-site.xml > ~/hdfs-site-xml
+  875  cat hadoop/core-site.xml > ~/core-site-xml
+  876  cd
+  877  ls
+  878  ls -lte
+  879  ls -ltr
+  880  clear
+  881  cat hdfs-site-xml 
+  882  clear
+  883  cat core-site--xml 
+  884  cat core-site-xml 
+  885  clear
+  886  screen -r
+  887  screen -r 2575.pts-0.hadoopmaster
+  888  screen -r
+  889  screen -r 2575.pts-0.hadoopmaster
+  890  screen -r
+  891  screen -r 2668.pts-0.hadoopmaster
+  892  screen -r
+  893  clear
+  894  hdfs dfs -ls
+  895  hdfs dfs -cd pv1
+  896  hdfs dfs -ls pv1
+  897  ls
+  898  hdfs dfs -ls pv1
+  899  hdfs dfs -mv pv/test-file.txt pv/test
+  900  hdfs dfs -mv pv/test-file.txt pv/test/
+  901  hdfs dfs -ls pv1
+  902  history
+  903  su
+  904  sudo su
+  905  ls
+  906  hdfs dfs -ld
+  907  hdfs dfs -ls
+  908  ifconfig
+  909  sudo shutdwon -r now
+  910  sudo shutdown -r now
+  911  ls
+  912  history
+  913  ls
+  914  cd my-hadoop-install/hadoop-3.1.1/bin/
+  915  ls
+  916  cd ..
+  917  cd sbin/
+  918  ls
+  919  ./start-dfs.sh 
+  920  ./start-yarn.sh 
+  921  hdfs dfs -ls
+  922  exit
+  923  showmount -e
+  924  mount
+  925  history
+  926  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  927  screen -r
+  928  history
+  929  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  930  screen -r
+  931  history
+  932  hdfs -ls
+  933  hdfs dfs -ls
+  934  exit
+  935  ls
+  936  hdfs dfs -ls
+  937  hdfs dfs -ls pv1
+  938  hdfs dfs -ls pv1/movetosrv1
+  939  hdfs dfs -touch pv1/movetosrv1/test123.txt
+  940  hdfs dfs -help
+  941  hdfs dfs
+  942  hdfs dfs -touchz pv1/movetosrv1/move1srvtest.txt
+  943  hdfs dfs -ls pv1/movetosrv1
+  944  exit
+  945  ifconfig
+  946  exit
+  947  top
+  948  screen -r
+  949  history
+  950  mount
+  951  cat /etc/fstab 
+  952  exit
+  953  ls
+  954  history
+  955  hdfs dfs -ls
+  956  history | grep nfs
+  957  rpcinfo
+  958  showmount -e 192.168.10.163
+  959  history
+  960  showmount -e
+  961  su
+  962  sudo su
+  963  history
+  964  cd ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/
+  965  ls
+  966  cat hdfs-site.xml 
+  967  sudo nano hdfs-site.xml 
+  968  ls
+  969  exit
+  970  hdfs dfs -ls
+  971  hdfs dfs -mkdir odb1
+  972  hdfs dfs -ls
+  973  hdfs dfs -rm -R odb1
+  974  ls
+  975  whoami
+  976  ls
+  977  hdfs dfs -mkdir odb1
+  978  hdfs dfs -chown hadoop:hadoop odb1
+  979  hdfs dfs -ls
+  980  history
+  981  ifconfig
+  982  rpcinfo 192.168.10.63
+  983  screen -r
+  984  screen -2795
+  985  screen -r 2795
+  986  screen -r 
+  987  clear
+  988  history
+  989  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+  990  history
+  991  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+  992  screen -r
+  993  screen -r 10131
+  994  screen -r 
+  995  ls
+  996  history
+  997  cd ~/my-hadoop-install/hadoop-3.1.1/etc/hadoop/
+  998  nano hdfs-site.xml 
+  999  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop portmap
+ 1000  history
+ 1001  screen sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop nfs3
+ 1002  ls
+ 1003  cat hdfs-site.xml 
+ 1004  exit
+ 1005  ls
+ 1006  exit
+ 1007  ls
+ 1008  history
+ 1009  dfs
+ 1010  sudo ~/my-hadoop-install/hadoop-3.1.1/bin/hadoop dfs
+ 1011  hdfs
+ 1012  hdfs ls
+ 1013  hdfs dfs ls
+ 1014  hdfs dfs -ls
+ 1015  ls
+ 1016  cd /user/hadoop/pv1
+ 1017  history
+ 1018  hdfs dfsadmin -report
+ 1019  hdfs dfs ls
+ 1020  hdfs dfs -ls
+ 1021  hdfs dfs -ls pv1
+ 1022  hdfs dfs -ls -r pv1
+ 1023  hdfs dfs -ls -r pv1/testdir
+ 1024  hdfs dfs -ls -r pv1/odbt
+ 1025  history
+ 1026  hadoop dfs -ls pv1
+ 1027  hdfs dfs -ls pv1
+ 1028  ls
+ 1029  ls /
+ 1030  ls /user
+ 1031  history
+ 1032  history|grep 'pv1'
+ 1033  hdfs dfs -ls
+ 1034  ls /user/hadoop/pv1
+ 1035  history
