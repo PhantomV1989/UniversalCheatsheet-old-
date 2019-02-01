@@ -1,7 +1,7 @@
 k hop https://cs.stackexchange.com/questions/38375/what-is-an-edge-hop
 https://themeforest.net/item/isomorphic-react-redux-admin-dashboard/20262330?s_rank=1
 
-data struct/algos/competitive
+data struct/algos/competitive (https://atcoder.jp/,hackerrank codility leetcode)
 Kaggle documentation
 google cloud/colate
 
