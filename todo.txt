@@ -23,7 +23,8 @@ aws, ec2
 pandas
 django
 flask
-
+rabbitmq
+postgres
 
 
 cassandraDB
