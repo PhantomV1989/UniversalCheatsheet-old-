@@ -2,7 +2,7 @@ k hop https://cs.stackexchange.com/questions/38375/what-is-an-edge-hop
 https://themeforest.net/item/isomorphic-react-redux-admin-dashboard/20262330?s_rank=1
 
 data struct/algos/competitive (https://atcoder.jp/,hackerrank codility leetcode)
-Kaggle, Google Code Jam, Hackerone
+Kaggle, Google Code Jam, Hackerone (OSCP)
 google cloud/colate
 
 https://docs.docker.com/storage/volumes/
@@ -19,13 +19,15 @@ linux
 node var {something} = require("asd"), server
 
 mysql
-aws, ec2
-pandas
+aws, ec2, ansible,
+type I,II hypervisor
 django
-flask
 rabbitmq
 postgres
+rest vs grpc
+burp suite
 
+synology
 
 cassandraDB
 hadoop
@@ -33,5 +35,9 @@ android
 ios
 opengl,webgl
 opencv, instanceSegmentation Sunita Nayak
+rasterview
 ruby on rail
 svn
+red hat
+
+full tunnel mode, session key, encrypted traffic (compressed+encryption)
