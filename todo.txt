@@ -1,6 +1,7 @@
 k hop https://cs.stackexchange.com/questions/38375/what-is-an-edge-hop
 https://themeforest.net/item/isomorphic-react-redux-admin-dashboard/20262330?s_rank=1
 
+binary index tree
 data struct/algos/competitive (https://atcoder.jp/,hackerrank codility leetcode)
 Kaggle, Google Code Jam, Hackerone (OSCP)
 google cloud/colate
@@ -28,7 +29,7 @@ rest vs grpc
 burp suite
 
 synology
-
+ssl,ibm,10660.htm
 cassandraDB
 hadoop
 android
