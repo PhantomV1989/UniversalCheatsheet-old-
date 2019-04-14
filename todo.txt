@@ -1,6 +1,16 @@
 k hop https://cs.stackexchange.com/questions/38375/what-is-an-edge-hop
 https://themeforest.net/item/isomorphic-react-redux-admin-dashboard/20262330?s_rank=1
 
+***Next role:
+    Deployment experience:
+        K8 performance, distributed DB, Gitlab, Jenkins, Ansible
+        Load tests
+        AWS, GCP
+        
+db concurrency, data integrity evaluation,
+kubernetes performance metrics
+load tests, protocol buffers
+
 binary index tree
 data struct/algos/competitive (https://atcoder.jp/,hackerrank codility leetcode)
 Kaggle, Google Code Jam, Hackerone (OSCP)
