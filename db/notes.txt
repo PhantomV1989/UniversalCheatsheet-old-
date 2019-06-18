@@ -1,0 +1,1 @@
+write heavy, live insert -> reduce DB logic as much as possible, AGGREGRATE! before writing to db
