@@ -38,6 +38,7 @@ postgres
 rest vs grpc
 burp suite
 tensorflow parallel training sharing weights/ commandline
+parasoft
 
 synology
 ssl,ibm,10660.htm
